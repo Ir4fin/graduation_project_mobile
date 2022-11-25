@@ -80,6 +80,13 @@ test
 
 ![](https://github.com/Ir4fin/graduation_project_mobile/blob/main/images/6d154d6d37b932061a99e0998887027c5010eba6.gif)
 
+## :telephone_receiver: Уведомления
+
+К проекту подключены уведомления в Telegram - после прохождения тестов в Jenkins бот присылает в чат результаты прогона.
+
+![This is an image](https://github.com/Ir4fin/graduation_project_mobile/blob/main/images/Screenshot_5.jpg)
+
+
 
 
 
