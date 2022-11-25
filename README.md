@@ -2,7 +2,7 @@
 ## 📑 Содержание
 - [Стек проекта](https://github.com/Ir4fin/graduation_project_mobile/tree/main#%EF%B8%8F-%D1%81%D1%82%D0%B5%D0%BA-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 - [Текущее тестовое покрытие](https://github.com/Ir4fin/graduation_project_mobile/blob/main/README.md#%EF%B8%8F-%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5)
-- [Запуск тестов]
+- [Запуск тестов](https://github.com/Ir4fin/graduation_project_mobile/blob/main/README.md#-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2)
 - [Проект в Allure TestOps]
 - [Пример Allure отчёта по пройденным тестам]
 - [Пример видео из Allure отчёта]
@@ -57,7 +57,20 @@ test
 -DdeviceHost=browserstack
 ```
 
-Для запуска прогона необходимо нажать на "Собрать"
+Для запуска прогона необходимо нажать на "Собрать сейчас"
+
+![This is an image](https://github.com/Ir4fin/graduation_project_mobile/blob/main/images/Screenshot_1.jpg)
+
+## :keyboard: Проект в Allure TestOps
+
+Проект развернут также в Allure TestOps, что позволяет: отслеживать прогон тестов в реальном времени; автоматически добавлять тесты из прогона в тест-кейсы; адаптировать прогоны для того, чтобы их могли разбирать и запускать участники проекта, не связанные напрямую с автотестированием.
+
+![This is an image](https://github.com/Ir4fin/graduation_project_mobile/blob/main/images/Screenshot_2.jpg)
+![This is an image](https://github.com/Ir4fin/graduation_project_mobile/blob/main/images/Screenshot_3.jpg)
+
+
+
+
 
 
 
