@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования приложения Wikipedia mobile
 ## 📑 Содержание
 - [Стек проекта](https://github.com/Ir4fin/graduation_project_mobile/tree/main#%EF%B8%8F-%D1%81%D1%82%D0%B5%D0%BA-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
-- [Текущее тестовое покрытие]
+- [Текущее тестовое покрытие](https://github.com/Ir4fin/graduation_project_mobile/blob/main/README.md#%EF%B8%8F-%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5)
 - [Запуск тестов]
 - [Проект в Allure TestOps]
 - [Пример Allure отчёта по пройденным тестам]
@@ -32,4 +32,33 @@
 :white_check_mark: Проверка работы Onboarding Screen
 
 :white_check_mark: Проверка работы поиска и открытия статьи по слову
+
+## 🧮 Запуск тестов
+
+**Удаленный запуска с Browserstack**
+
+./gradlew clean test -DdeviceHost=browserstack
+
+**Запуск на эмуляторе Android Studio**
+
+./gradlew clean test -DdeviceHost=emulation
+
+**Запуск на локальном устройстве Android**
+
+./gradlew clean test -DdeviceHost=real
+
+**Jenkins**
+
+Для проекта сделана [сборка в Jenkins](https://jenkins.autotests.cloud/job/014-Ir4fin-%20graduation_project_mobile_wiki/) со следующими параметрами:
+
+```bash
+clean
+test
+-DdeviceHost=browserstack
+```
+
+Для запуска прогона необходимо нажать на "Собрать"
+
+
+
 
