@@ -37,15 +37,15 @@
 
 **Удаленный запуска с Browserstack**
 
-./gradlew clean test -DdeviceHost=browserstack
+`./gradlew clean test -DdeviceHost=browserstack`
 
 **Запуск на эмуляторе Android Studio**
 
-./gradlew clean test -DdeviceHost=emulation
+`./gradlew clean test -DdeviceHost=emulation`
 
 **Запуск на локальном устройстве Android**
 
-./gradlew clean test -DdeviceHost=real
+`./gradlew clean test -DdeviceHost=real`
 
 **Jenkins**
 
