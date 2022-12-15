@@ -1,4 +1,4 @@
-package tests;
+package steps;
 
 import com.codeborne.selenide.Condition;
 import io.appium.java_client.AppiumBy;
@@ -27,7 +27,7 @@ public class Steps {
     }
 
     @Step("Проверка наличия содержимого на стартовом экране вики")
-    public Steps openStartScreen(String content) {
+    public Steps checkStartScreenContent(String content) {
         $(AppiumBy.id("org.wikipedia.alpha:id/primaryTextView")).shouldHave(text(content));
         $(AppiumBy.id("org.wikipedia.alpha:id/imageViewCentered")).shouldBe(visible);
 
